@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "mattock",
+	"version": "${version}",
+	"name": "mattock",
+	"description": "wow!Great!it is a mattock",
+	"authors": [
+		"haitailook"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-v3",
+	"icon": "assets/mattock/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cn.tlgjx.mattock.Mattock"
+		],
+		"fabric-datagen": [
+			"cn.tlgjx.mattock.MattockDataGenerator"
+		]
+	},
+	"mixins": [
+		"mattock.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
