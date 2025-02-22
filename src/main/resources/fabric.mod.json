@@ -8,7 +8,7 @@
 		"haitailook"
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/haitailook/mattock"
 	},
 	"license": "GPL-v3",
 	"icon": "assets/mattock/icon.png",
