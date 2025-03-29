@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "mattock",
-	"version": "fabric-v1.0.2+mc1.20.1",
+	"version": "1.0.2-fabric+mc1.20.1",
 	"name": "mattock",
 	"description": "a tool",
 	"authors": [
