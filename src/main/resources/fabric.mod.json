@@ -1,11 +1,12 @@
 {
 	"schemaVersion": 1,
 	"id": "mattock",
-	"version": "${version}",
+	"version": "fabric-v1.0.2+mc1.20.1",
 	"name": "mattock",
-	"description": "wow!Great!it is a mattock",
+	"description": "a tool",
 	"authors": [
-		"haitailook"
+		"haitailook",
+		"Sacredym"
 	],
 	"contact": {
 		"sources": "https://github.com/haitailook/mattock"

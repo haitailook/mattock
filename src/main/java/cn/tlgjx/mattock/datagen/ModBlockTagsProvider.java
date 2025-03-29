@@ -16,7 +16,6 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        // 将原版镐和斧能挖掘的方块合并到我们创建的tag中
         getOrCreateTagBuilder(ModBlockTags.MATTOCK_MINEABLE)
                 .forceAddTag(BlockTags.SHOVEL_MINEABLE)
                 .forceAddTag(BlockTags.HOE_MINEABLE)
